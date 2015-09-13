@@ -1,0 +1,72 @@
+body {
+	background-color: #131927;
+	margin: 0;
+	padding: 0;
+	font-family: "DejaVu Sans", sans-serif;
+}
+
+
+.pageContainer {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.vertAlign {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 50%;
+	margin: auto;
+}
+
+.boxContainer {
+	display: table;
+	width: 100%;
+	border-spacing: 20px;
+}
+
+.box {
+	display: table-cell;
+	width: 33.3%;
+	height: 200px;
+	text-align: center;
+	background-color: #2c3e50;
+	border: 10px solid #1b2336;
+	outline: #2c3e50 solid 4px;
+	padding: 10px;
+	-webkit-box-shadow: 7px 7px 5px 1px rgba(0,0,0,0.6);
+	-moz-box-shadow: 7px 7px 5px 1px rgba(0,0,0,0.6);
+	box-shadow: 7px 7px 5px 1px rgba(0,0,0,0.6);
+}
+
+.boxHeader {
+	background-color: #3498db;
+	font-size: 14pt;
+	text-align: center;
+	vertical-align: middle;
+	height: 22px;
+	color: #34495e;
+}
+
+.searchForm {
+	padding-top: 6px;
+	padding-left: 18px;
+	padding-right: 18px;
+}
+
+.searchInput {
+	width: 100%;
+	border: none;
+	margin: auto;
+	display: block;
+	padding: 5px 5px;
+	background-color: #2c3e50;
+	border: 10px solid #1b2336;
+	-webkit-box-shadow: 7px 7px 5px 1px rgba(0,0,0,0.6);
+	-moz-box-shadow: 7px 7px 5px 1px rgba(0,0,0,0.6);
+	box-shadow: 7px 7px 5px 1px rgba(0,0,0,0.6);
+	font-size: 14pt;
+	color: #e0e0e0;
+	outline: #95a5a6 solid 4px;
+}
