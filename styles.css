@@ -16,14 +16,14 @@ body {
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
-	width: 50%;
+	width: 65%;
 	margin: auto;
 }
 
 .boxContainer {
 	display: table;
 	width: 100%;
-	border-spacing: 20px;
+	border-spacing: 26px;
 }
 
 .box {
@@ -49,10 +49,36 @@ body {
 	color: #34495e;
 }
 
+a:link,
+a:visited {
+	text-decoration: none;
+	color: #e0e0e0;
+}
+
+ul {
+	list-style-type: none;
+	text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+	.box {
+		display: block;
+		width: 75%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 24px;
+	}
+
+	.vertAlign {
+		transform: translateY(0%);
+		top: 0%;
+		bottom: 0%;
+	}
+}
+
 .searchForm {
-	padding-top: 6px;
-	padding-left: 18px;
-	padding-right: 18px;
+	padding-left: 26px;
+	padding-right: 26px;
 }
 
 .searchInput {
