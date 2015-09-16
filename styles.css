@@ -41,12 +41,23 @@ body {
 }
 
 .boxHeader {
-	background-color: #3498db;
 	font-size: 14pt;
 	text-align: center;
 	vertical-align: middle;
 	height: 22px;
 	color: #34495e;
+}
+
+#boxHeader1 {
+	background-color: #2ecc71;
+}
+
+#boxHeader2 {
+	background-color: #e67e22;
+}
+
+#boxHeader3 {
+	background-color: #3498db;
 }
 
 a:link,
