@@ -69,6 +69,7 @@ a:visited {
 ul {
 	list-style-type: none;
 	text-align: left;
+	padding: 0;
 }
 
 @media only screen and (max-width: 913px) {
