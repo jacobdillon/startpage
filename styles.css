@@ -72,7 +72,7 @@ ul {
 	padding: 0;
 }
 
-@media only screen and (max-width: 913px) {
+@media only screen and (max-width: 728px) {
 	.box {
 		display: block;
 		width: 75%;
