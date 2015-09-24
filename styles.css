@@ -1,12 +1,6 @@
 body {
 	background-image: url('http://start.hbh7.com/Eva-Tree-Wallpaper.jpg');
-	width: 100%;
-	position: fixed;
-    	top: 0;
-    	left: 0;
-	 z-index: -5000;
-    	height: 100%;
-	margin: 0;
+	background-size:cover;
 	padding: 0;
 	font-family: "DejaVu Sans", sans-serif;
 }
