@@ -1,5 +1,5 @@
 body {
-	background-color: #26353f;
+	background-color: #282828;
 	margin: 0;
 	padding: 0;
 	font-family: "DejaVu Sans", sans-serif;
@@ -31,9 +31,9 @@ body {
 	width: 33.3%;
 	height: 200px;
 	text-align: center;
-	background-color: #343d46;
-	border: 10px solid #28323b;
-	outline: #2c3e50 solid 4px;
+	background-color: #282828;
+	border: 10px solid #676a6b;
+	outline: #bebebe solid 4px;
 	padding: 10px;
 	-webkit-box-shadow: 7px 7px 5px 1px rgba(0,0,0,0.6);
 	-moz-box-shadow: 7px 7px 5px 1px rgba(0,0,0,0.6);
@@ -45,25 +45,25 @@ body {
 	text-align: center;
 	vertical-align: middle;
 	height: 22px;
-	color: #343d46;
+	color: #282828;
 }
 
 #boxHeader1 {
-	background-color: #A3BE8C;
+	background-color: #a41c32;
 }
 
 #boxHeader2 {
-	background-color: #d08770;
+	background-color: #a41c32;
 }
 
 #boxHeader3 {
-	background-color: #8fa1b3;
+	background-color: #a41c32;
 }
 
 a:link,
 a:visited {
 	text-decoration: none;
-	color: #eff1f5;
+	color: #dddddd;
 }
 
 ul {
@@ -99,12 +99,12 @@ ul {
 	margin: auto;
 	display: block;
 	padding: 5px 5px;
-	background-color: #343d46;
-	border: 10px solid #28323b;
+	background-color: #282828;
+	border: 10px solid #676a6b;
 	-webkit-box-shadow: 7px 7px 5px 1px rgba(0,0,0,0.6);
 	-moz-box-shadow: 7px 7px 5px 1px rgba(0,0,0,0.6);
 	box-shadow: 7px 7px 5px 1px rgba(0,0,0,0.6);
 	font-size: 14pt;
 	color: #eff1f5;
-	outline: #95a5a6 solid 4px;
+	outline: #bebebe solid 4px;
 }
