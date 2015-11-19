@@ -5,7 +5,6 @@ body {
 	font-family: "DejaVu Sans", sans-serif;
 }
 
-
 .pageContainer {
 	height: 100%;
 	width: 100%;
@@ -34,7 +33,6 @@ body {
 	background-color: #343d46;
 	border: 10px solid #28323b;
 	outline: #2c3e50 solid 4px;
-	padding: 10px;
 	-webkit-box-shadow: 7px 7px 5px 1px rgba(0,0,0,0.6);
 	-moz-box-shadow: 7px 7px 5px 1px rgba(0,0,0,0.6);
 	box-shadow: 7px 7px 5px 1px rgba(0,0,0,0.6);
@@ -46,6 +44,10 @@ body {
 	vertical-align: middle;
 	height: 22px;
 	color: #343d46;
+	padding: 10px;
+}
+.list {
+	padding: 10px;
 }
 
 #boxHeader1 {
