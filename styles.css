@@ -24,10 +24,10 @@ body {
 	width: 100%;
 	border-spacing: 26px;
 }
-
 .box {
 	display: table-cell;
 	width: 33.3%;
+
 	height: 200px;
 	text-align: center;
 	background-color: #343d46;
@@ -36,6 +36,9 @@ body {
 	-webkit-box-shadow: 7px 7px 5px 1px rgba(0,0,0,0.6);
 	-moz-box-shadow: 7px 7px 5px 1px rgba(0,0,0,0.6);
 	box-shadow: 7px 7px 5px 1px rgba(0,0,0,0.6);
+}
+.box:hover {
+	outline: 4px solid #95a5a6;
 }
 
 .boxHeader {
