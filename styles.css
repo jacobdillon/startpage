@@ -5,7 +5,7 @@ body {
 	height: 100%;
 	margin: 0px;
 	/*background: url('Eva-Tree-Wallpaper.jpg') no-repeat center center;*/
-	background: url(backgrounds/rotator.php) no-repeat center center;
+	background: url('backgrounds/rotate.php') no-repeat center center;
 	background-size: cover;
 	background-attachment: fixed;
 	
