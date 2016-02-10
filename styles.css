@@ -4,8 +4,8 @@ body {
 	
 	height: 100%;
 	margin: 0px;
-	/*background: url('Eva-Tree-Wallpaper.jpg') no-repeat center center;*/
-	background: #282828 no-repeat center center;
+	/*background: url('backgrounds/rotate.php') no-repeat center center;*/
+	background: #282828 url('backgrounds/rotate.php') no-repeat center center;
 	background-size: cover;
 	background-attachment: fixed;
 	
@@ -54,6 +54,7 @@ body {
 	-webkit-box-shadow: 7px 7px 5px 1px rgba(0,0,0,0.6);
 	-moz-box-shadow: 7px 7px 5px 1px rgba(0,0,0,0.6);
 	box-shadow: 7px 7px 5px 1px rgba(0,0,0,0.6);
+    opacity: .90;
 }
 
 .boxHeader {
@@ -62,6 +63,7 @@ body {
 	vertical-align: middle;
 	height: 22px;
 	color: #282828;
+    opacity: 1;
 }
 
 #boxHeader1 {
@@ -123,4 +125,5 @@ ul {
 	font-size: 14pt;
 	color: #eff1f5;
 	outline: #bebebe  solid 4px;
+    opacity: .90;
 }
