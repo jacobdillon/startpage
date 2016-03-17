@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Start</title>
-		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="stylesheet" type="text/css" href="styles-php.css">
 		<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 		<!--
 		<script type="text/javascript">
@@ -19,6 +19,16 @@
 		</script> -->
 	</head>
 	<body>
+<?php
+ function GetServerStatus($site, $port)
+ {
+ $status = array("<div class='online'>Online</div>", "<div class='offline'>Offline</div>");
+ $fp = @fsockopen($site, $port, $errno, $errstr, 2);
+ if (!$fp) {
+    return $status[1];
+  } else  { return $status[0];}
+ }
+?>
 		<div class="pageContainer">
 			<div class="vertAlignRow1">
 				<div class="boxContainer">
@@ -35,12 +45,13 @@
                             </ul>
 					</div>
 					<div class="box">
-						<div class="boxHeader" id="boxHeader2">Media</div>
-                            <ul>
-								<li><a href="http://youtube.com">Youtube</a></li>
-								<li><a href="http://vessel.com">Vessel</a></li>
-								<li><a href="http://www.twitch.tv/monstercat">Monstercat Twitch</a></li>
-								<li><a href="https://hbh7.com/p/">Glype Proxy</a></li>
+						<div class="boxHeader" id="boxHeader2">Services Statuses</div>
+							<ul>
+								<li><div><span>10.20.31.1 - <strong>Proxmox</strong></span><?php echo GetServerStatus('10.20.31.1',8006); ?></div></li>
+								<li><div><span>10.20.30.8 - <strong>FreeNAS</strong></span><?php echo GetServerStatus('10.20.30.8',80); ?></div></li>
+								<li><div><span>10.20.30.11 - <strong>Webserver</strong></span><?php echo GetServerStatus('10.20.30.11',80); ?></div></li>
+								<li><div><span>10.20.30.131 - <strong>OnlyOffice</strong></span><?php echo GetServerStatus('10.20.30.131',80); ?></div></li>
+								<li><div><span>10.20.30.200 - <strong>Memes</strong></span><?php echo GetServerStatus('10.20.30.200',80); ?></div></li>
 							</ul>
 					</div>
 					<div class="box">
@@ -51,6 +62,10 @@
 								<li><a href="https://amazon.com/">Amazon</a></li>
 								<li><a href="https://ebay.com/">Ebay</a></li>
                                 <li><a href="http://onlyoffice.hbh7.com/">hbh7's OnlyOffice</a></li>
+								<li><a href="http://youtube.com">Youtube</a></li>
+								<li><a href="http://vessel.com">Vessel</a></li>
+								<li><a href="http://www.twitch.tv/monstercat">Monstercat Twitch</a></li>
+								<li><a href="https://hbh7.com/p/">Glype Proxy</a></li>
 							</ul>
 					</div>
 				</div>
@@ -86,8 +101,8 @@
 								<li style="color: #DA1E3C"><a href="http://ai2.appinventor.mit.edu/">App Inventor</a> - <a href="https://docs.google.com/document/d/1IN5JYQ0yAkYn6l4wCFBjfUSTjt3JP73YJfVljC85-mg/edit">Class Page</a></li>
 								<li style="color: #DA1E3C"><a href="https://www.connexus.com/login.aspx">Connexus</a> - <a href="https://translate.google.com/">Google Translate</a></li>
 								<li><a href="https://connection.naviance.com/family-connection/auth/login/?hsid=hphspatd">Naviance</a></li>
-                                				<li><a href="https://www.adrive.com/public/2kKtAc/3d-Modeling">3D Modeling Files</a></li>
-                                				<li><a href="https://newsela.com/">Newsella</a></li>
+                                <li><a href="https://www.adrive.com/public/2kKtAc/3d-Modeling">3D Modeling Files</a></li>
+                                <li><a href="https://newsela.com/">Newsella</a></li>
 							</ul>
 					</div>
 				</div>

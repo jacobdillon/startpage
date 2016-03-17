@@ -1,0 +1,150 @@
+body {
+	/*background-image: url('Eva-Tree-Wallpaper.jpg'); */
+	/*background-size: cover;*/
+	
+	height: 100%;
+	margin: 0px;
+	/*background: url('backgrounds/rotate.php') no-repeat center center;*/
+	background: #282828 url('backgrounds/rotate.php') no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+	
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+	
+	color: #dddddd;
+}
+
+
+.pageContainer {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.vertAlignRow1 {
+	position: relative;
+	top: 35%;
+	transform: translateY(-50%);
+	width: 1000px;
+	margin: auto;
+}
+
+.vertAlignRow2 {
+	position: relative;
+	top: 35%;
+	transform: translateY(-50%);
+	width: 1000px;
+	margin: auto;
+}
+
+.boxContainer {
+	display: table;
+	width: 100%;
+	border-spacing: 26px;
+}
+
+.box {
+	display: table-cell;
+	width: 33.3%;
+	height: 240px;
+	text-align: center;
+	background-color: #282828;
+	border: 10px solid #676a6b;
+	outline: #bebebe  solid 4px;
+	padding: 10px;
+	-webkit-box-shadow: 7px 7px 5px 1px rgba(0,0,0,0.6);
+	-moz-box-shadow: 7px 7px 5px 1px rgba(0,0,0,0.6);
+	box-shadow: 7px 7px 5px 1px rgba(0,0,0,0.6);
+    opacity: .90;
+}
+
+.boxHeader {
+	font-size: 14pt;
+	text-align: center;
+	vertical-align: middle;
+	height: 22px;
+	color: #282828;
+    opacity: 1;
+}
+
+#boxHeader1 {
+	background-color: #a41c32;
+}
+
+#boxHeader2 {
+	background-color: #a41c32;
+}
+
+#boxHeader3 {
+	background-color: #a41c32;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+	color: #dddddd;
+}
+
+ul {
+	list-style-type: none;
+	text-align: left;
+	padding: 0;
+}
+
+@media only screen and (max-width: 728px) {
+	.box {
+		display: block;
+		width: 75%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 24px;
+	}
+
+	.vertAlign {
+		transform: translateY(0%);
+		top: 0%;
+		bottom: 0%;
+	}
+}
+
+.searchForm {
+	padding-left: 26px;
+	padding-right: 26px;
+}
+
+.searchInput {
+	width: 100%;
+	border: none;
+	margin: auto;
+	display: block;
+	padding: 5px 5px;
+	background-color: #282828;
+	border: 10px solid #676a6b;
+	-webkit-box-shadow: 7px 7px 5px 1px rgba(0,0,0,0.6);
+	-moz-box-shadow: 7px 7px 5px 1px rgba(0,0,0,0.6);
+	box-shadow: 7px 7px 5px 1px rgba(0,0,0,0.6);
+	font-size: 14pt;
+	color: #eff1f5;
+	outline: #bebebe  solid 4px;
+    opacity: .90;
+}
+
+.online {
+  padding: 2px 5px 2px 5px;
+  margin: 0;
+  display: inline;
+  background: green;
+  color: white;
+}
+
+.offline {
+  padding: 2px 5px 2px 5px;
+  margin: 0;
+  display: inline;
+  background: darkred;
+  color: white;
+}
+
+li div { text-align:right; }
+li div span { float:left; }
