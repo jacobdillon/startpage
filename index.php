@@ -51,7 +51,7 @@
 								<li><div><span>10.20.30.8 - <strong>FreeNAS</strong></span><?php echo GetServerStatus('10.20.30.8',80); ?></div></li>
 								<li><div><span>10.20.30.11 - <strong>Webserver</strong></span><?php echo GetServerStatus('10.20.30.11',80); ?></div></li>
 								<li><div><span>10.20.30.131 - <strong>OnlyOffice</strong></span><?php echo GetServerStatus('10.20.30.131',80); ?></div></li>
-								<li><div><span>10.20.30.200 - <strong>Memes</strong></span><?php echo GetServerStatus('10.20.30.200',80); ?></div></li>
+								<li><div><span>10.20.30.200 - <strong>Example</strong></span><?php echo GetServerStatus('10.20.30.200',80); ?></div></li>
 							</ul>
 					</div>
 					<div class="box">
