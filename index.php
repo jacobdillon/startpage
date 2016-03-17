@@ -73,7 +73,7 @@
 			<div class="vertAlignRow2">
 				<div class="boxContainer">
 					<div class="box">
-						<div class="boxHeader" id="boxHeader1">Projects</div>
+						<div class="boxHeader" id="boxHeader4">Projects</div>
 							<ul>
 								<li><a href="http://school.hbh7.com/westwardexpansion">hbh7 - Westward Expansion</a></li>
 								<li><a href="https://hbh7.com/wordpress/">hbh7 - Random Wordpress</a></li>
@@ -83,7 +83,7 @@
 							</ul>
 					</div>
 					<div class="box">
-						<div class="boxHeader" id="boxHeader2">Good Memes</div>
+						<div class="boxHeader" id="boxHeader5">Good Memes</div>
 							<ul>
 								<li><a href="http://www.food.com/recipe/best-meatballs-203145">The Best Meatballs</a></li>
 								<li><a href="http://thundercandraw.deviantart.com/">Eva's Deviant Poptart</a></li>
@@ -93,7 +93,7 @@
 							</ul>
 					</div>
 					<div class="box">
-						<div class="boxHeader" id="boxHeader3">School</div>
+						<div class="boxHeader" id="boxHeader6">School</div>
 							<ul>
 								<li><a href="http://pathways.finalsite.com/">Pathways</a></li>
 								<li><a href="https://powerschool.hartfordschools.org/public/home.html">Powerschool</a></li>
