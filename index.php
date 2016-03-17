@@ -23,7 +23,7 @@
  function GetServerStatus($site, $port)
  {
  $status = array("<div class='online'>Online</div>", "<div class='offline'>Offline</div>");
- $fp = @fsockopen($site, $port, $errno, $errstr, 2);
+ $fp = @fsockopen($site, $port, $errno, $errstr, .5);
  if (!$fp) {
     return $status[1];
   } else  { return $status[0];}
