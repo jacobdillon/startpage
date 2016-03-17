@@ -80,6 +80,18 @@ body {
 	background-color: #a41c32;
 }
 
+#boxHeader4 {
+	background-color: #a41c32;
+}
+
+#boxHeader5 {
+	background-color: #a41c32;
+}
+
+#boxHeader6 {
+	background-color: #a41c32;
+}
+
 a:link,
 a:visited {
 	text-decoration: none;
@@ -114,7 +126,7 @@ ul {
 }
 
 .searchInput {
-	width: 100%;
+	width: 1000px;
 	border: none;
 	margin: auto;
 	display: block;
