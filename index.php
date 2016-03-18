@@ -90,6 +90,7 @@
 								<li style="color: #DA1E3C"><a href="http://uniqcode.com/typewriter/">Typewriter Sim</a> - <a href="http://webwit.nl/input/kbsim/">Model M Sim</a></li>
 								<li><a href="https://www.dropbox.com/s/8xbpp2d0b9x8mql/wish%20list.txt">My Wish List</a></li>
 								<li><a href="https://github.com/hbh7/startpage">This Startpage on Github</a></li>
+								<li><a href="http://addictivearcade.weebly.com/">Addictive Arcade</a></li>
 							</ul>
 					</div>
 					<div class="box">
