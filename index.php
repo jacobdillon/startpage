@@ -109,7 +109,10 @@
 				</div>
 
 				<div class="search">
-					<form class="searchForm" method="GET" action="https://duckduckgo.com/?q=">
+					<!--<form class="searchForm" method="GET" action="https://duckduckgo.com/?q=">
+						<input class="searchInput" type="text" name="q" autofocus>
+					</form>-->
+					<form class="searchForm" method="GET" action="https://google.com/search">
 						<input class="searchInput" type="text" name="q" autofocus>
 					</form>
 				</div>
