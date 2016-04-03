@@ -58,10 +58,8 @@
 						<div class="boxHeader" id="boxHeader3">Hobby</div>
 							<ul>
 								<li><a href="https://github.com/">Github</a></li>
-								<li><a href="https://hbh7.com:8006">Proxmox</a></li>
 								<li><a href="https://amazon.com/">Amazon</a></li>
 								<li><a href="https://ebay.com/">Ebay</a></li>
-                                <li><a href="http://onlyoffice.hbh7.com/">hbh7's OnlyOffice</a></li>
 								<li><a href="http://youtube.com">Youtube</a></li>
 								<li><a href="http://vessel.com">Vessel</a></li>
 								<li><a href="http://www.twitch.tv/monstercat">Monstercat Twitch</a></li>
@@ -109,9 +107,6 @@
 				</div>
 
 				<div class="search">
-					<!--<form class="searchForm" method="GET" action="https://duckduckgo.com/?q=">
-						<input class="searchInput" type="text" name="q" autofocus>
-					</form>-->
 					<form class="searchForm" method="GET" action="https://google.com/search">
 						<input class="searchInput" type="text" name="q" autofocus>
 					</form>
