@@ -33,23 +33,23 @@
 			<div class="vertAlignRow1">
 				<div class="boxContainer">
 					<div class="box">
-                        <div class="boxHeader" id="boxHeader1">Information</div>
+                        			<div class="boxHeader" id="boxHeader1">Information</div>
 							<ul> 
 								<li><a href="http://reddit.com">Reddit</a></li>
 								<li><a href="http://arstechnica.com">Ars Technica</a></li>
 								<li><a href="http://news.ycombinator.com">Hacker News</a></li>
 								<li><a href="http://www.gmail.com">Gmail</a></li>
 								<li><a href="https://hbh7.com/mail/">hbh7's Email</a></li>
-                                <li><a href="https://www.icloud.com/#reminders">iCloud Reminders</a></li>
-                                <li><a href="https://github.com/hbh7?tab=repositories">hbh7's Github Repos</a></li>
-                            </ul>
-					</div>
+                                				<li><a href="https://www.icloud.com/#reminders">iCloud Reminders</a></li>
+                                				<li><a href="https://github.com/hbh7?tab=repositories">hbh7's Github Repos</a></li>
+                            				</ul>
+						</div>
 					<div class="box">
 						<div class="boxHeader" id="boxHeader2">Services Statuses</div>
 							<ul>
 								<li><div><span>10.20.31.1 - <a href="https://hbh7.com:8006"><strong>Proxmox</strong></a></span><?php echo GetServerStatus('10.20.31.1',8006); ?></div></li>
 								<li><div><span>10.20.30.8 - <a href="https://freenas.hbh7.com"><strong>FreeNAS</strong></a></span><?php echo GetServerStatus('10.20.30.8',80); ?></div></li>
-								<li><div><span>10.20.31.100 - <a href="https://sandstorm.hbh7.com"><strong>SandStorm</strong></a></span><?php echo GetServerStatus('10.20.31.100',80); ?></div></li>
+								<li><div><span>10.20.31.100 - <a href="http://sandstorm.hbh7.com"><strong>SandStorm</strong></a></span><?php echo GetServerStatus('10.20.31.100',6080); ?></div></li>
 								<li><div><span>10.20.31.101 - <a href="https://hbh7.com"><strong>Webserver</strong></a></span><?php echo GetServerStatus('10.20.31.101',80); ?></div></li>
 								<li><div><span>10.20.31.111 - <a href="https://onlyoffice.hbh7.com"><strong>OnlyOffice</strong></a></span><?php echo GetServerStatus('10.20.31.111',80); ?></div></li>
 							</ul>
