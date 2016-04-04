@@ -47,11 +47,14 @@
 					<div class="box">
 						<div class="boxHeader" id="boxHeader2">Services Statuses</div>
 							<ul>
-								<li><div><span>10.20.31.1 - <a href="https://hbh7.com:8006"><strong>Proxmox</strong></a></span><?php echo GetServerStatus('10.20.31.1',8006); ?></div></li>
-								<li><div><span>10.20.30.8 - <a href="https://freenas.hbh7.com"><strong>FreeNAS</strong></a></span><?php echo GetServerStatus('10.20.30.8',80); ?></div></li>
-								<li><div><span>10.20.31.100 - <a href="http://sandstorm.hbh7.com"><strong>SandStorm</strong></a></span><?php echo GetServerStatus('10.20.31.100',6080); ?></div></li>
-								<li><div><span>10.20.31.101 - <a href="https://hbh7.com"><strong>Webserver</strong></a></span><?php echo GetServerStatus('10.20.31.101',80); ?></div></li>
-								<li><div><span>10.20.31.111 - <a href="https://onlyoffice.hbh7.com"><strong>OnlyOffice</strong></a></span><?php echo GetServerStatus('10.20.31.111',80); ?></div></li>
+								<li><div><span><a href="https://hbh7.com:8006"><strong>10.20.31.1 - Proxmox</strong></a></span><?php echo GetServerStatus('10.20.31.1',8006); ?></div></li>
+								<li><div><span><a href="https://freenas.hbh7.com"><strong>10.20.30.8 - FreeNAS</strong></a></span><?php echo GetServerStatus('10.20.30.8',80); ?></div></li>
+								<li><div><span><a href="http://sandstorm.hbh7.com"><strong>10.20.31.100 - SandStorm</strong></a></span><?php echo GetServerStatus('10.20.31.100',6080); ?></div></li>
+								<li><div><span><a href="https://hbh7.com"><strong>10.20.31.101 - Webserver</strong></a></span><?php echo GetServerStatus('10.20.31.101',80); ?></div></li>
+								<li><div><span><a href="http://sonerezh.hbh7.com"><strong>10.20.31.102 - Sonerezh</strong></a></span><?php echo GetServerStatus('10.20.31.102',80); ?></div></li>
+								<li><div><span><a href="http://ampache.hbh7.com"><strong>10.20.31.103 - Ampache</strong></a></span><?php echo GetServerStatus('10.20.31.103',80); ?></div></li>
+								<li><div><span><a href="http://subsonic.hbh7.com"><strong>10.20.31.104 - Subsonic</strong></a></span><?php echo GetServerStatus('10.20.31.104',80); ?></div></li>
+								<li><div><span><a href="https://onlyoffice.hbh7.com"><strong>10.20.31.111 - OnlyOffice</strong></a></span><?php echo GetServerStatus('10.20.31.111',80); ?></div></li>
 							</ul>
 					</div>
 					<div class="box">
