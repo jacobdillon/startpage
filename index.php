@@ -127,6 +127,7 @@
 		<!-- Init script -->
 		<script type="text/javascript">
 			clippy.load('Clippy', function(agent){
+				agent.moveTo(0,0);
 				agent.show();
 				agent.animate();
 			});
