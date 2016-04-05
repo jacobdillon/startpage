@@ -149,6 +149,42 @@
 					agent.animate();
 				}
 				setInterval(doAnimation, 15000);
+				
+				function doSpeak() {
+					var randomNum = Math.floor((Math.random() * 10) + 1);
+					if (randomNum == 1) {
+						agent.speak("It looks like you're trying to use the startpage. Want some help with that?");
+					}
+					if (randomNum == 2) {
+						agent.speak("It looks like you're trying to use the internet. Want some help with that?");
+					}
+					if (randomNum == 3) {
+						agent.speak("It looks like you're trying to bend the spoon with your mind! Want some help? Have you tried realizing the truth, that there is no spoon?");
+					}
+					if (randomNum == 4) {
+						agent.speak("It looks like you're trying to find a place to go. Want some help with that?");
+					}
+					if (randomNum == 5) {
+						agent.speak("It looks like you've found this website. Want to bookmark it?");
+					}
+					if (randomNum == 6) {
+						agent.speak("Would you like some help with that?");
+					}
+					if (randomNum == 7) {
+						agent.speak("Would you like some fries with that?");
+					}
+					if (randomNum == 8) {
+						agent.speak("You should try turning it off and on again.");
+					}
+					if (randomNum == 9) {
+						agent.speak("Have you tried control+alt+delete?");
+					}
+					if (randomNum == 10) {
+						agent.speak("Hi! I am Clippy, your office assistant. Would you like some assistance today?");
+					}
+				}
+				setInterval(doSpeak, 30000);
+			
 			});
 		</script>
 		
