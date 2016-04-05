@@ -20,29 +20,29 @@
 		</script> -->
 	</head>
 	<body>
-<?php
- function GetServerStatus($site, $port)
- {
- $status = array("<div class='online'>Online</div>", "<div class='offline'>Offline</div>");
- $fp = @fsockopen($site, $port, $errno, $errstr, .5);
- if (!$fp) {
-    return $status[1];
-  } else  { return $status[0];}
- }
-?>
+		<?php
+			function GetServerStatus($site, $port)
+			{
+			$status = array("<div class='online'>Online</div>", "<div class='offline'>Offline</div>");
+			$fp = @fsockopen($site, $port, $errno, $errstr, .5);
+			if (!$fp) {
+				return $status[1];
+			} else  { return $status[0];}
+			}
+		?>
 		<div class="pageContainer">
 			<div class="vertAlignRow1">
 				<div class="boxContainer">
 					<div class="box">
-                        			<div class="boxHeader" id="boxHeader1">Information</div>
+                        <div class="boxHeader" id="boxHeader1">Information</div>
 							<ul> 
 								<li><a href="http://reddit.com">Reddit</a></li>
 								<li><a href="http://arstechnica.com">Ars Technica</a></li>
 								<li><a href="http://news.ycombinator.com">Hacker News</a></li>
 								<li><a href="http://www.gmail.com">Gmail</a></li>
 								<li><a href="https://hbh7.com/mail/">hbh7's Email</a></li>
-                                				<li><a href="https://www.icloud.com/#reminders">iCloud Reminders</a></li>
-                                				<li><a href="https://github.com/hbh7?tab=repositories">hbh7's Github Repos</a></li>
+                                <li><a href="https://www.icloud.com/#reminders">iCloud Reminders</a></li>
+                                <li><a href="https://github.com/hbh7?tab=repositories">hbh7's Github Repos</a></li>
                             				</ul>
 						</div>
 					<div class="box">
@@ -127,7 +127,6 @@
 		<!-- Init script -->
 		<script type="text/javascript">
 			clippy.load('Clippy', function(agent){
-				agent.moveTo(100,100);
 				agent.show();
 				agent.animate();
 			});
