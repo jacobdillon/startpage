@@ -127,7 +127,21 @@
 		<!-- Init script -->
 		<script type="text/javascript">
 			clippy.load('Clippy', function(agent){
-				agent.moveTo(0,0);
+				
+				function getOffset( el ) {
+					var _x = 0;
+					var _y = 0;
+					while( el && !isNaN( el.offsetLeft ) && !isNaN( el.offsetTop ) ) {
+						_x += el.offsetLeft - el.scrollLeft;
+						_y += el.offsetTop - el.scrollTop;
+						el = el.offsetParent;
+					}
+					return { top: _y, left: _x };
+				}
+				var x = getOffset( document.getElementById('boxHeader1') ).left; 
+				var y = getOffset( document.getElementById('boxHeader1') ).top; 
+				
+				agent.moveTo(x,y);
 				agent.show();
 				agent.animate();
 			});
