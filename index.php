@@ -5,6 +5,7 @@
 		<title>Start</title>
 		<link rel="stylesheet" type="text/css" href="styles-php.css">
 		<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="clippy.js-master/src/clippy.css" media="all">
 		<!--
 		<script type="text/javascript">
 			var img = new Image();
@@ -116,5 +117,21 @@
 				</div>
 			</div>
 		</div>
+		
+		<!-- jQuery 1.7+ -->
+		<script src="jquery-2.2.3.min.js"></script>
+
+		<!-- Clippy.js -->
+		<script src="clippy.js-master/build/clippy.min.js"></script>
+		
+		<!-- Init script -->
+		<script type="text/javascript">
+			clippy.load('Clippy', function(agent){
+				agent.moveTo(100,100);
+				agent.show();
+				agent.animate();
+			});
+		</script>
+		
 	</body>
 </html>

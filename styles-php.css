@@ -57,6 +57,7 @@ body {
 	-moz-box-shadow: 7px 7px 5px 1px rgba(0,0,0,0.6);
 	box-shadow: 7px 7px 5px 1px rgba(0,0,0,0.6);
     opacity: .90;
+	font-family: "Raleway", "Times New Roman", Times, sans-serif;
 }
 
 .boxHeader {
