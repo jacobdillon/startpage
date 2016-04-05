@@ -141,9 +141,14 @@
 				var x = getOffset( document.getElementById('boxHeader1') ).left; 
 				var y = getOffset( document.getElementById('boxHeader1') ).top; 
 				
-				agent.moveTo(x,y);
+				agent.moveTo(x+120,y-120);
 				agent.show();
 				agent.animate();
+				
+				function doAnimation() {
+					agent.animate();
+				}
+				setInterval(doAnimation, 15000);
 			});
 		</script>
 		
