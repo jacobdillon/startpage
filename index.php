@@ -83,9 +83,6 @@
 								<li><a href="http://westwardexpansion.eva.school.hbh7.com/">Eva - Westward Expansion</a></li>
 								<li><a href="http://hbh7.com/eva/beijing/">Eva - Beijing</a></li>
 								<li><a href="http://based-art.hbh7.com/">Eva - Based Art</a></li>
-								<li>
-									<a href="http://www.reliablecounter.com" target="_blank"><img src="http://www.reliablecounter.com/count.php?page=start.hbh7.com&digit=style/plain/28/&reloads=0" alt="" title="" border="0"></a><br /><a href="http://www.fabbly.com" target="_blank" style="font-family: Geneva, Arial; font-size: 9px; color: #330010; text-decoration: none;">www.fabbly.com</a>
-								</li>
 							</ul>
 					</div>
 					<div class="box">
