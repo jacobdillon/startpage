@@ -95,7 +95,7 @@
 								<li><a href="https://github.com/hbh7/startpage">This Startpage on Github</a></li>
 								<li><a href="http://addictivearcade.weebly.com/">Addictive Arcade</a></li>
 								<li><a href="https://www.dominos.com/en/">Domino's Pizza</a></li>
-								<li<<a href="http://www.tickcounter.com/countdown/1465409580000/america-new_york/owdhms/FFFFFF3B5998000000FF0000/">Days Left of School</a></li>
+								<li><a href="http://www.tickcounter.com/countdown/1465409580000/america-new_york/owdhms/FFFFFF3B5998000000FF0000/">Days Left of School</a></li>
 							</ul>
 					</div>
 					<div class="box">
