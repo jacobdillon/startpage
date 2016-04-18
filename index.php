@@ -84,9 +84,7 @@
 								<li><a href="http://hbh7.com/eva/beijing/">Eva - Beijing</a></li>
 								<li><a href="http://based-art.hbh7.com/">Eva - Based Art</a></li>
 								<li>
-									<!-- Start of SimpleHitCounter Code -->
-									<div align="center"><a href="http://www.marcleaningservices.com" target="_blank"><img src="http://simplehitcounter.com/hit.php?uid=2074358&f=16777215&b=0" border="0" height="18" width="83" alt="carpet cleaning broward"></a><br><a href="http://www.marcleaningservices.com" target="_blank" style="text-decoration:none;">carpet cleaning broward</a></div>
-									<!-- End of SimpleHitCounter Code -->
+									<a href="http://www.reliablecounter.com" target="_blank"><img src="http://www.reliablecounter.com/count.php?page=start.hbh7.com&digit=style/plain/28/&reloads=0" alt="" title="" border="0"></a><br /><a href="http://www.fabbly.com" target="_blank" style="font-family: Geneva, Arial; font-size: 9px; color: #330010; text-decoration: none;">www.fabbly.com</a>
 								</li>
 							</ul>
 					</div>
