@@ -62,13 +62,13 @@
 					<div class="box">
 						<div class="boxHeader" id="boxHeader3">Hobby</div>
 							<ul>
-								<li><a href="https://github.com/">Github</a></li>
-								<li><a href="https://amazon.com/">Amazon</a></li>
-								<li><a href="https://ebay.com/">Ebay</a></li>
-								<li><a href="http://youtube.com">Youtube</a></li>
-								<li><a href="http://vessel.com">Vessel</a></li>
 								<li><a href="http://www.twitch.tv/monstercat">Monstercat Twitch</a></li>
 								<li><a href="https://hbh7.com/p/">Glype Proxy</a></li>
+								<li><a href="https://github.com/">Github</a></li>
+								<li><a href="https://amazon.com/">Amazon</a></li>
+								<li><a href="https://ebay.com/">eBay</a></li>
+								<li><a href="http://youtube.com">Youtube</a></li>
+								<li><a href="http://vessel.com">Vessel</a></li>
 							</ul>
 					</div>
 				</div>
