@@ -6,5 +6,6 @@ My start page, containing many cool features:
 * Appropriate categories. 
 * Service status checker
 * Randomly picked background drawn by artist [Eva HW](https://based-art.hbh7.com)
+* [Clippy.js](https://www.smore.com/clippy-js)
 
  
