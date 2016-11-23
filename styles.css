@@ -11,8 +11,19 @@ a:hover {
 #alignment {
   margin: auto;
   position: relative;
-  top: 50%;
   width: 30%;
+}
+
+@media (max-width:1500px) {
+  #alignment {
+    width: 40%;
+  }
+}
+
+@media (max-width:1100px) {
+  #alignment {
+    width: 60%;
+  }
 }
 
 body {
@@ -20,26 +31,22 @@ body {
   color: #ffffff;
   font-family: sans-serif;
   margin: 0;
-  padding: 0;
+  padding: 10px;
 }
 
 .content {
   background-color: #2d2f31;
   border: 1px solid #81a2be;
-  margin: 10px;
+  display: block;
+  margin: auto;
   padding: 10px;
   width: 100%;
-}
-
-#page-container {
-  width: 100%;
-  position: absolute;
 }
 
 ul {
   list-style-type: none;
   margin: auto;
-  padding: 5px 5px;
+  padding: 5px;
   text-align: left;
   white-space: nowrap;
 }
