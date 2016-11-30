@@ -11,7 +11,7 @@ a:hover {
 #alignment {
   margin: auto;
   position: relative;
-  width: 30%;
+  width: 25%;
 }
 
 @media (max-width:1500px) {
