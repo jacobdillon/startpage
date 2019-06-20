@@ -1,45 +1,93 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Start</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-  </head>
-  <body>
-    <div id="alignment">
-      <div class="content">
-        <ul class="links">
-          <li>school:</li>
-          <li><a href="https://huskyct.uconn.edu/">huskyct</a></li>
-          <li><a href="https://gradescope.com/">gradescope</a></li>
-	  <li><a href="https://class.mimir.io/">mimir</a></li>
-	  <li><a href="https://studentadmin.uconn.edu/">studentadmin</a></li>	  
-        </ul>
-	<ul class="misc">
-	  <li>misc:</li>
-          <li><a href="https://protonmail.com/">protonmail</a></li>
-	  <li><a href="https://mail.google.com/">gmail</a></li>
-          <li><a href="https://github.com/">github</a></li>
-	</ul>
-        <ul class="links">
-          <li>news:</li>
-          <li><a href="https://news.ycombinator.com/">hacker news</a></li>
-          <li><a href="https://lobste.rs/">lobsters</a></li>
-        </ul>
-        <ul class="links">
-          <li>music:</li>
-          <li><a href="http://pitchfork.com/">pitchfork</a></li>
-          <li><a href="https://soundcloud.com/">soundcloud</a></li>
-          <li><a href="https://bandcamp.com/">bandcamp</a></li>
-        </ul>
-        <ul class="links">
-          <li>social:</li>
-          <li><a href="https://reddit.com/">reddit</a></li>
-	  <li><a href="https://youtube.com/">youtube</a></li>
-          <li><a href="https://twitter.com/">twitter</a></li>
-          <li><a href="https://linkedin.com/">linkedin</a></li>
-        </ul>
-      </div>
-    </div>
-  </body>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>start</title>
+</head>
+
+<body>
+  <style>
+    a:link,
+    a:visited {
+      color: #000;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #eee;
+      background-color: #000;
+    }
+
+    a {
+      padding: 5rem;
+      border-width: 8px;
+      border-style: dashed;
+      margin: 1rem;
+      flex: 1;
+    }
+
+    body {
+      background-color: #eee;
+      font-family: Helvetica, sans-serif;
+      font-size: 36px;
+      text-transform: uppercase;
+      margin: 0;
+      font-weight: bold;
+      text-align: center;
+      padding: 1rem;
+      display: inline-flex;
+      flex-wrap: wrap;
+    }
+  </style>
+  <script>
+    var links = [{
+        "title": "huskyct",
+        "url": "https://huskyct.uconn.edu/"
+      },
+      {
+        "title": "gradescope",
+        "url": "https://gradescope.com/"
+      },
+      {
+        "title": "mimir",
+        "url": "https://class.mimir.io/"
+      },
+      {
+        "title": "studentadmin",
+        "url": "https://studentadmin.uconn.edu/"
+      },
+      {
+        "title": "protonmail",
+        "url": "https://protonmail.com/"
+      },
+      {
+        "title": "gmail",
+        "url": "https://mail.google.com/"
+      },
+      {
+        "title": "github",
+        "url": "https://github.com/"
+      },
+      {
+        "title": "reddit",
+        "url": "https://reddit.com/"
+      },
+      {
+        "title": "youtube",
+        "url": "https://youtube.com/"
+      },
+      {
+        "title": "twitter",
+        "url": "https://twitter.com/"
+      },
+    ]
+
+    for (let l of links) {
+      var a = document.createElement("a");
+      a.textContent = l.title;
+      a.href = l.url;
+      document.getElementsByTagName("body")[0].appendChild(a);
+    }
+  </script>
 </html>
