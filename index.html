@@ -4,10 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>start</title>
-</head>
-
-<body>
-  <style>
+  <style type="text/css">
     a:link,
     a:visited {
       color: #000;
@@ -40,8 +37,11 @@
       flex-wrap: wrap;
     }
   </style>
+</head>
+
+<body>
   <script>
-    var links = [{
+    const links = [{
         "title": "huskyct",
         "url": "https://huskyct.uconn.edu/"
       },
@@ -81,10 +81,10 @@
         "title": "twitter",
         "url": "https://twitter.com/"
       },
-    ]
+    ];
 
     for (let l of links) {
-      var a = document.createElement("a");
+      let a = document.createElement("a");
       a.textContent = l.title;
       a.href = l.url;
       document.getElementsByTagName("body")[0].appendChild(a);
